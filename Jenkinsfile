@@ -10,7 +10,7 @@ pipeline
         steps
         {
           //bat 'gradlew.bat clean build'
-          cmd 'gradlew clean build'
+          ./ gradlew clean build
         }
       }
       
