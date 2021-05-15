@@ -10,7 +10,7 @@ pipeline
         steps
         {
           //bat 'gradlew.bat clean build'
-          powershell '.\gradlew clean build'
+          powershell 'gradlew clean build'
         }
       }
       
